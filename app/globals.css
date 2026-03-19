@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#0A0A0A] text-white antialiased;
+}
+
+/* smoother text */
+html {
+  scroll-behavior: smooth;
+}
+
+/* selection */
+::selection {
+  @apply bg-white text-black;
+}
