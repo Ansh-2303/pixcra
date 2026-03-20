@@ -7,6 +7,7 @@ import CTASection from "../../components/sections/cta";
 import Footer from "../../components/sections/footer";
 import Preloader from "../../components/ui/preloader";
 import Capabilities from "../../components/sections/capabilities";
+import Contact from "../../components/sections/contact";
 
 export default function Page() {
   return (
@@ -21,6 +22,7 @@ export default function Page() {
 
       {/* 🔥 CTA SHOULD COME HERE */}
       <CTASection />
+      <Contact />
 
       <Footer />
     </main>
